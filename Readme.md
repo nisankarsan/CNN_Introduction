@@ -5,12 +5,12 @@ A deep learning project that classifies images of cats and dogs using CNN archit
 ## Dataset and Model Overview
 
 ### Dataset Specifications
-• Source: Kaggle Dogs vs Cats dataset
-• Total Images: 25,000
-• Training Set: 20,000 images
-• Test Set: 5,000 images
-• Classes: Binary (Cats: 0, Dogs: 1)
-• Image Format: JPG
+• Source: Kaggle Dogs vs Cats dataset \
+• Total Images: 25,000\
+• Training Set: 20,000 images\
+• Test Set: 5,000 images\
+• Classes: Binary (Cats: 0, Dogs: 1)\
+• Image Format: JPG\
 • Input Size: 64x64x3 (RGB)
 
 ### Model Architecture
@@ -53,4 +53,4 @@ training_set = train_datagen.flow_from_directory(
     class_mode='binary'
 ) 
 ```
-I created cat-and-dog/single_prediction subfile for testing the my algorithm so y
+I created cat-and-dog/single_prediction subfile for testing the my algorithm.
